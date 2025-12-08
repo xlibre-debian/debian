@@ -1,0 +1,28 @@
+Origin: XLibre
+Label: XLibre Debian Packages
+Codename: main
+Date: Mon, 08 Dec 2025 01:55:55 UTC
+Architectures: amd64
+Components: stable
+Description: Debian repository for XLibre.
+MD5Sum:
+ e23f2de2d7387915e0df5e0c87351fd0 77247 stable/binary-amd64/Packages
+ a77f58129f7947aa7c87d06159ee990c 19628 stable/binary-amd64/Packages.gz
+ c7a08dcf2e4db004aaca3380b0be150a 126 stable/binary-amd64/Release
+ 90ba76b8b7783bc91cbe953590a88f46 39038 stable/source/Sources
+ 313ab18eccbca9c3060d2486f9979edb 9691 stable/source/Sources.gz
+ 6f88b1251970ebe7d4130e78fe2d239f 127 stable/source/Release
+SHA1:
+ 01d8ede6fdcc711ee54a4840c277800fe0b79b29 77247 stable/binary-amd64/Packages
+ 7296461b585f5b7b0b29feca41da8f20aaf0d05e 19628 stable/binary-amd64/Packages.gz
+ 23227f6b037e67a4ebf564ccf60ca5bc24aadaf4 126 stable/binary-amd64/Release
+ fe0c1fac80d99dd76df66e3c70b5ad11329ad3a4 39038 stable/source/Sources
+ 38c2ae0bfca25ec9ea00bdc44b27c64182c87c0f 9691 stable/source/Sources.gz
+ df6edc4ee16742d441a7a97916b575e5b744f0ad 127 stable/source/Release
+SHA256:
+ 60df02d412a202644a5e97251957f5a797ac832b8030dc30f3cbeaf327fb6cf8 77247 stable/binary-amd64/Packages
+ 18ea5bd3ab2ede6bb94ccce8d81b06b62061ef4df1aea2cfef3c14a06c59cd18 19628 stable/binary-amd64/Packages.gz
+ 93486b04adf7ec278f9ee771255947330835484bf39ee6813548b24be3a2b7ed 126 stable/binary-amd64/Release
+ 0f1f47f0cb1f2e0d9af3ff6afd7e3d71c8e9c455bc94193322f8262e8c1197fc 39038 stable/source/Sources
+ f243d58242f6c6cc95e68eec9e233ff11d7bfbce6f9c0bf0ad915ccb8dead04e 9691 stable/source/Sources.gz
+ 977774bd14fd03159e1b549c8f75338533761d796424b8bc0439d362f2366b2e 127 stable/source/Release

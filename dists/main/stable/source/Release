@@ -1,0 +1,5 @@
+Component: stable
+Origin: XLibre
+Label: XLibre Debian Packages
+Architecture: source
+Description: Debian repository for XLibre.

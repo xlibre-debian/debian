@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: XLibre
 Label: XLibre Debian Packages
 Codename: main
-Date: Mon, 08 Dec 2025 03:50:52 UTC
+Date: Tue, 09 Dec 2025 23:07:17 UTC
 Architectures: amd64
 Components: stable
 Description: Debian repository for XLibre.
@@ -31,17 +31,17 @@ SHA256:
  977774bd14fd03159e1b549c8f75338533761d796424b8bc0439d362f2366b2e 127 stable/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmk2SxwACgkQ15zW8bUj
-lPp4Jw/+LrftoTz/NaNSkKfyQ0gjE7IPwxXMjuOjGxeX/22jItJurhU8IE5WzUag
-AyLiPt6bEH0Zjdb6l8SNT0A8yLfLxvg4vstwWvQy+bsaZvWK1KtG7ZbTgK4yG9Gl
-u/kLqwm/Uau8Sz/Jm7z1ggM/qLYiWTmrFuV6PEYLxlUbWhRFUFvDz7pCxg5oOQ2R
-5SUEzC12g23WB91rDM5QgMPl+cfBh9jn0ChPTVltH6dNEXIibIunduVAwJrcl8tO
-74NQ1pAt4aiAQ/KH1EoiqTgKv6/Q2aOkpinpDmR+xmtCpb/VLTJcHy5MtdYi1Aem
-ARCR8boav8MQmSAekSMorUgJt1R1yMFU9yRmPR5O5FA4MD2+D7JU2IJgBrn1eYfD
-kYaPIBODfHrqAiTD/ELB4S81DxTdyP9e/7DWBb7+LyFDvLomsudhVMbZQiRhkI4t
-cduHUsX1mv4FiaPI7x4FL3YMJDZxGaABNGmjSbIjqUlq7w9XsKWgLq4Uzvrwnmf/
-0fdudEy0FJzXvnbW1wAsG0k0smqSG08wH6fH1wS733TiQwmrfvka5zwyBBr7hNNZ
-HH443ALJrsWWmGVp+vlnU182inm02qGlaFwBChqmU4ARYd66v6HbvbCqIfleC4wr
-KXYBwx/ohvZs8V0ZQmFifbjnP3/FEZU85zSTYgKY2xsUDeriGos=
-=ynqw
+iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmk4q6UACgkQ15zW8bUj
+lPpz6g/+L3hEoOxRG+Z4Y5J6vDEf/HuCezHzJOZTaWmoB8JriEoyZ5RfYZ+dmqKv
+n5ly0ULBv7gQYqGshddmNZvqkaHU/xaB9NjkSK9OkBRHgErNGp8yS/f7AqrHHrVn
+K5SyeqlVJqtjBBLecnKNSETpT/nRHWAoZa5AVllDpMdClyTtqJgVPYlEDFjx4wg/
+w4zyXlYdR5/vZ9oRkosH9DpNRqtZOxvENtK53r2TpV5TtjCAp8czY4zKJsTgAZuz
+ZBOX4Gs3eXrN+RmObFCES2ASlUn9BoBqKb0ZdA0Cm5A4YCg1PUKqrRf0QaVxmFlB
+x/pbuwddsUtqpRsRvlPCZAmIYmEtXBgYpUquuuSPZQpcmxoEdl8tZ9Dy4quiNPPN
+iZyDxe5wJuv2XVgdS2tLC0g2qb7X9Fa028BEvDy/ERSrGj12ip7uRqEW0jZpMA44
+ErKU6GgaOIoLRJst6L/CcBY+49xyw7GkDOZ/4/Bi/49vQdbBWPF6O/liHXm5Y3PK
+yWwyQBvJxKwfSObXsW4ArE2e6TODZblk708naWXGvbBGop9xnBq3Qp7AJGmUaBKL
+JhV8+tTAuoANnjf4+l8HOiiq+daZrgHozMtw+2uU97of/8HgKtOqdxE6rxCmpDR7
+Or+CAoHbuGNOwR37lY3dWU/fByY0JfMeuGz6ZRnhUk1799eRk1I=
+=RjPm
 -----END PGP SIGNATURE-----

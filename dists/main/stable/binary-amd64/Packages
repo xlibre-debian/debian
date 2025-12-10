@@ -1,3 +1,18 @@
+Package: nexussfan-archive-keyring
+Version: 1.0.0-1
+Architecture: all
+Maintainer: NexusSfan <nexussfan@duck.com>
+Priority: optional
+Section: misc
+Filename: pool/stable/n/nexussfan-archive-keyring/nexussfan-archive-keyring_1.0.0-1_all.deb
+Size: 3084
+SHA256: c7b8a2da81e57a942464ec07df560d6de98de96b673b918223e7971757a31936
+SHA1: 45680103089554668bf02fa1117fca01b0593d3a
+MD5sum: 3de2f023a8edd5fba26713c0efa9f3c8
+Description: OpenPGP archive certificates of NexusSfan
+ NexusSfan digitally signs its Release files. This package
+ contains the archive certificates used for that.
+
 Package: x11proto-core-dev
 Source: xorgproto
 Version: 2024.1-1~bpo+1
@@ -358,6 +373,22 @@ Description: XLibre X Window System
  .
  It should be noted that a package providing x-window-manager should also
  be installed to ensure a comfortable X experience.
+
+Package: xlibre-archive-keyring
+Version: 1.0.0-1
+Depends: nexussfan-archive-keyring
+Architecture: all
+Maintainer: NexusSfan <nexussfan@duck.com>
+Priority: optional
+Section: misc
+Filename: pool/stable/x/xlibre-archive-keyring/xlibre-archive-keyring_1.0.0-1_all.deb
+Size: 792
+SHA256: 6581245924d4889fe0df728109e88740af1abb046b88c457c086a34b6ef11c52
+SHA1: d6e93492015c1dad52b3e76aebed5b21aaf98c67
+MD5sum: aaa3a2efd0e8a7717dda84966169c5a3
+Description: OpenPGP archive certificates of XLibre
+ XLibre digitally signs its Release files. This package
+ contains the archive certificates used for that.
 
 Package: xlibre-dev
 Source: xlibre

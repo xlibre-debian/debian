@@ -9,7 +9,7 @@ curl -fsSL https://mrchicken.nexussfan.cz/publickey.asc | gpg --dearmor | tee /u
 sudo chmod a+r /usr/share/keyrings/NexusSfan.asc
 
 cat <<EOF | sudo tee /etc/apt/sources.list.d/xlibre-debian.sources
-Types: deb deb-src
+Types: deb
 URIs: https://xlibre-debian.github.io/debian/
 Suites: main
 Components: stable

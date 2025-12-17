@@ -20,3 +20,11 @@ EOF
 sudo apt-get update
 sudo apt-get install xlibre xlibre-archive-keyring
 ```
+
+If you wish to uninstall xlibre and return to xorg:
+```sh
+sudo apt-get update
+sudo apt remove xlibre xserver-xlibre*
+sudo apt install xorg
+sudo rm /etc/apt/sources.list.d/xlibre-debian.sources /usr/share/keyrings/NexusSfan.pgp
+```

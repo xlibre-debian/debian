@@ -21,7 +21,7 @@ sudo apt-get update
 sudo apt-get install xlibre xlibre-archive-keyring
 ```
 
-If you wish to uninstall xlibre and return to xorg:
+If you wish to uninstall XLibre and return to Xorg:
 ```sh
 sudo apt-get update
 sudo apt remove xlibre xserver-xlibre*

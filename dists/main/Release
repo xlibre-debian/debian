@@ -1,27 +1,27 @@
 Origin: XLibre
 Label: XLibre Debian Packages
 Codename: main
-Date: Mon, 22 Dec 2025 16:02:24 UTC
+Date: Tue, 23 Dec 2025 22:59:22 UTC
 Architectures: amd64
 Components: stable
 Description: Debian repository for XLibre.
 MD5Sum:
- 0c3003e7abba56b684648b7875b34722 83086 stable/binary-amd64/Packages
- 6916d8ef02ae8eebda7023ad47d0ec02 20692 stable/binary-amd64/Packages.gz
+ 75119f0104f05028866f0db8855be747 83086 stable/binary-amd64/Packages
+ 902f5547ab5ef1ad4c64c91cd315199a 20695 stable/binary-amd64/Packages.gz
  c7a08dcf2e4db004aaca3380b0be150a 126 stable/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 stable/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 stable/source/Sources.gz
  6f88b1251970ebe7d4130e78fe2d239f 127 stable/source/Release
 SHA1:
- e2f550690d1b882bc519f80b46b0155974100cb9 83086 stable/binary-amd64/Packages
- ca73b107c8c81be7ea6805127ce0fadd31627eb4 20692 stable/binary-amd64/Packages.gz
+ 60d9646acc82763db9a5c170221f085567e9c230 83086 stable/binary-amd64/Packages
+ 62fbe257c11f3a0a2e3053d0f5a807cad4b2decf 20695 stable/binary-amd64/Packages.gz
  23227f6b037e67a4ebf564ccf60ca5bc24aadaf4 126 stable/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 stable/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 stable/source/Sources.gz
  df6edc4ee16742d441a7a97916b575e5b744f0ad 127 stable/source/Release
 SHA256:
- b6233fc0feb9b22d17155b1e263cc676e542a43db36597b72378be5e99b961e4 83086 stable/binary-amd64/Packages
- a2137b5716017f3f08b2f04ee40b010be5eb38be13f194e19420d75d4c36065a 20692 stable/binary-amd64/Packages.gz
+ daa0b7f59ac6a5c779ffea8ecd606e841702100f17fdae60720c1509f18d82b9 83086 stable/binary-amd64/Packages
+ 55f289300d28110b4103ab991fa34789b0cb8baaf03876e6e2722fd93cffd044 20695 stable/binary-amd64/Packages.gz
  93486b04adf7ec278f9ee771255947330835484bf39ee6813548b24be3a2b7ed 126 stable/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 stable/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 stable/source/Sources.gz

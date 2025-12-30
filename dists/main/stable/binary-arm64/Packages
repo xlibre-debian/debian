@@ -694,10 +694,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-elographics/xserver-xlibre-input-elographics_25.0.1-1_arm64.deb
-Size: 10096
-SHA256: 11f738f31536d0087d5faeb480e3ef85ec53e3ebd9f506f2e0e0c472a2376561
-SHA1: 863d3d4fd78a882d000f3067294c638474728da1
-MD5sum: 58c8841d77190c0a75243f301b911d22
+Size: 10092
+SHA256: 356e2f7089793f4251bb3431daf57821a67865950d7a523820d3496cb5040581
+SHA1: 4ff903fe734e83cf4ec757c4cc5ca28ccc9bfc4b
+MD5sum: 439d0300b6d3980134eb3e6049e8b9e0
 Description: XLibre X server -- ELOGraphics input driver
  This package provides the driver for ELO Graphics touchscreens.
  .
@@ -717,12 +717,12 @@ Depends: xserver-xlibre-input-elographics (= 2:25.0.1-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-elographics/xserver-xlibre-input-elographics-dbgsym_25.0.1-1_arm64.deb
-Size: 26544
-SHA256: ba07ffced74929224e4d60870203dc1f3f328c9f02b8ccbb2e0c85cbf4539e27
-SHA1: ba30ba1124f3d97394075f24601fe4fe6e97346a
-MD5sum: cd50c5c3712996e756886716878d88ae
+Size: 26564
+SHA256: f5ce6fe6fb9533360367a066d03c32b901337ec3e9ed8e481ee2fe8659b392a6
+SHA1: 785181e7587af1122ca146a9973cd3e8bee65b47
+MD5sum: 4f6edccd3ac220cee9101f79dd6f2b13
 Description: debug symbols for xserver-xlibre-input-elographics
-Build-Ids: 6e03e6d0275077a6617696814e2a9115c8a0e5dd
+Build-Ids: 3bf22263681af201d1933f4476bc5377ad743884
 
 Package: xserver-xlibre-input-evdev
 Version: 2:25.0.0-1
@@ -738,10 +738,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-evdev/xserver-xlibre-input-evdev_25.0.0-1_arm64.deb
-Size: 29308
-SHA256: c90d1742ce85507903852ea9beacb53351f8a020d1111be942e9c6ffb4c23c35
-SHA1: e35ac87c614b94a1065e51c27c84540432ba745e
-MD5sum: aaceea162668b3344b1140341b59cdb7
+Size: 29304
+SHA256: cbadbba78a25bf0601c5280b35f1bba6bb42d3e0250734b67b6939f0f26757ac
+SHA1: 0d86fa77e63d9820ee0a183d7bffda13c6a2fe0c
+MD5sum: bb57963f27c5287cc7c973d6e8a14f68
 Description: XLibre X server -- evdev input driver
  This package provides the driver for input devices using evdev, the Linux
  kernel's event delivery mechanism.  This driver allows for multiple keyboards
@@ -760,12 +760,12 @@ Depends: xserver-xlibre-input-evdev (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-evdev/xserver-xlibre-input-evdev-dbgsym_25.0.0-1_arm64.deb
-Size: 89788
-SHA256: 4ebb24ae9159d9eb6e3ab7908381de192b177722c6f1a6f21d9ec6fddc3ea93b
-SHA1: 43fde0b9367fc9f64a1956a855b81222782db7fd
-MD5sum: 881c6bcaf0491ceee630ab157ee5bb22
+Size: 89744
+SHA256: 8a1499d4b91c5677522a698e276d4c0db7712caeffd31aa4fd50f6dc3c8e440d
+SHA1: db4e30c02e5af937dbefc028f4d01ccc9ea77690
+MD5sum: b99c30f63b06b408dd93b4ed2cb7e0aa
 Description: debug symbols for xserver-xlibre-input-evdev
-Build-Ids: 6651719ba86690f40a744c7d5dd6a9a2cd88d755
+Build-Ids: 9f13adbdfde3a3d6394506c690cbc5aa1022a2ba
 
 Package: xserver-xlibre-input-evdev-dev
 Source: xserver-xlibre-input-evdev
@@ -803,10 +803,10 @@ Provides: xserver-xorg-input-kbd (= 2:25.0.0-1)
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-keyboard/xserver-xlibre-input-kbd_25.0.0-1_arm64.deb
-Size: 10288
-SHA256: a34fe54bc7eadbae9f86362bd7352657d40f1d629a2c2f4c0e64ae4a470f92da
-SHA1: a1b26be70444429bbfd35bd5b615310cc9d95f77
-MD5sum: 4a461899db4d4b0d887759a9bdd7221d
+Size: 10276
+SHA256: a4168f1d9ca4a16b07467ae4780daebe86e838142b4e47056c847d4780c76fc6
+SHA1: 996ddc96522fffccb7aca4fda069d7272330f048
+MD5sum: 6959a8f67d5732b7efc05b14db20853c
 Description: XLibre X server -- keyboard input driver
  This package provides the driver for keyboard input devices.
  This package is built from the XLibre xf86-input-keyboard driver module.
@@ -822,12 +822,12 @@ Depends: xserver-xlibre-input-kbd (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-keyboard/xserver-xlibre-input-kbd-dbgsym_25.0.0-1_arm64.deb
-Size: 38736
-SHA256: e627b80f3489a18c9a44ebaa80dd2a262a1bf96bd9d0104782a5f56bfa49dd4f
-SHA1: ce8905862766d16d351eb2c34cca6495d5d4c733
-MD5sum: fb3402acf7d44fbabfcc9828d346d2c8
+Size: 38796
+SHA256: a71aeb9d19f6aebff0e190d666ae512a87a0e4423a72fe553624a1eb00897466
+SHA1: 27ba8cc3c71249f037c422cfb4d00807cd40c066
+MD5sum: 1370a0d3bbc4c2938a1c17ed502945d4
 Description: debug symbols for xserver-xlibre-input-kbd
-Build-Ids: b5a5846ea9f59bf99502917b64f458d42bd3cf59
+Build-Ids: f6b30f3fbaebfa573f38594f275b36359783c59c
 
 Package: xserver-xlibre-input-libinput
 Version: 1:25.0.0-1
@@ -841,10 +841,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-libinput/xserver-xlibre-input-libinput_25.0.0-1_arm64.deb
-Size: 38832
-SHA256: 80ffabebed52ff41881d2252002ec46c04c5009b90026597e94ce59cabf70bb8
-SHA1: 99f905768402e413715ce97dc55fce8a0c3e0cbf
-MD5sum: 2a89c3b220a8d455c7ca82c56ad657f4
+Size: 38712
+SHA256: 346aff93f85aa68bc323ec4eeca8acba2222a9aec3f9980d258624cc2fd13ba6
+SHA1: bc51a9ebac41712df1a3c38bf7abdda8d71e0e98
+MD5sum: 47c44bdf8c4bf3e4a4acc63f4317179a
 Description: XLibre X server -- libinput input driver
  This package provides the driver for input devices using libinput library.
  It can handle keyboards, mice and touchpads, and essentially replaces the
@@ -863,12 +863,12 @@ Depends: xserver-xlibre-input-libinput (= 1:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-libinput/xserver-xlibre-input-libinput-dbgsym_25.0.0-1_arm64.deb
-Size: 119420
-SHA256: d41873ace6634efa9045acfe2f4c79d6e261ab2e2f0c0e1564cf28ecc9f59990
-SHA1: 1e19393a8374dd18f2e6bcaacaa79dbe64bcc274
-MD5sum: f9f33de5a3deb95fb4cf91904168ae57
+Size: 119448
+SHA256: b5e61cbcdac21c22bc287dba245ef689539349ea999ecde418be9f414015ff3a
+SHA1: 86fea96f6e9c044a540f3588b384a0716cc76c44
+MD5sum: 65dff585973eca6c746eafa924dd8c82
 Description: debug symbols for xserver-xlibre-input-libinput
-Build-Ids: 820ac354fbd616a201c3fcd8d3e75651e4d34dd5
+Build-Ids: 600ef0592b75ded8f5715d1d61e70c93e534e02f
 
 Package: xserver-xlibre-input-libinput-dev
 Source: xserver-xlibre-input-libinput
@@ -905,10 +905,10 @@ Provides: xserver-xorg-input-mouse (= 2:25.0.0-1)
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-mouse/xserver-xlibre-input-mouse_25.0.0-1_arm64.deb
-Size: 34572
-SHA256: 44acbbe6a158bcd1e981e054482179e9cc8932190f9c2ebdf0b5255b1763af3a
-SHA1: cbd4b1d7f39ae756ad3d50e5cebc180a87e2f2b4
-MD5sum: 8221fb9aa8c80b50b361960c3f22642e
+Size: 34552
+SHA256: fd5a1f0d985f98178a85c42ee1a3397e4cd4a5b7f9710dbd7063bb21a28adaa8
+SHA1: cf657305ab4b3cccd2ca3887eae66dfcb85277cc
+MD5sum: b67b59a96fc95c92912b3babe4498b9a
 Description: XLibre X server -- mouse input driver
  This package provides the driver for mouse input devices.
  This package is built from the XLibre xf86-input-keyboard driver module.
@@ -924,12 +924,12 @@ Depends: xserver-xlibre-input-mouse (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-mouse/xserver-xlibre-input-mouse-dbgsym_25.0.0-1_arm64.deb
-Size: 76756
-SHA256: 5fb024ae8489cf6918ea10ab285fe1b18998df1a79426b48791fd9cc70ed4c97
-SHA1: 43878162d817719e07c5c1f9d40c47210e96b66e
-MD5sum: 8d6398b8d1b0476200e7e7917d307e05
+Size: 76896
+SHA256: 7677cdc15546cedc272c12bb9c1569d5a720939ce91c1087ace2cf492d66c405
+SHA1: ad118a2d03b7ed241f92042d1f6989d9201c4805
+MD5sum: 724adeff56d1c20eecaf1000da2d80e5
 Description: debug symbols for xserver-xlibre-input-mouse
-Build-Ids: 49b7588497619c4d57a98bdd0921077ab6d496cb
+Build-Ids: e44cb739f5d1a4ebfb6bb4ba72b75e6aaea86107
 
 Package: xserver-xlibre-input-synaptics
 Version: 1:25.0.0-1
@@ -945,10 +945,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-synaptics/xserver-xlibre-input-synaptics_25.0.0-1_arm64.deb
-Size: 59312
-SHA256: 55f3934b13293285c25a957905e76b72e4ee4e27e5e22e817430a9ac0d1233fd
-SHA1: 8b336e2687f36d72aa13677dab38d6fd8eb33865
-MD5sum: 4a95018721258cd3069e4c1d6ae52748
+Size: 59320
+SHA256: 06d29b0e01c9d704e1680a5c397cb9be6385896a7158969a0debc21e2547e926
+SHA1: fbb40804174c4d3db9683722c7bd7c742cad04ef
+MD5sum: d4051291dc11ce375ea0a64b9b65b87d
 Description: Synaptics TouchPad driver for XLibre server
  This package provides an input driver for the XLibre X server to enable
  advanced features of the Synaptics Touchpad including:
@@ -985,12 +985,12 @@ Depends: xserver-xlibre-input-synaptics (= 1:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-synaptics/xserver-xlibre-input-synaptics-dbgsym_25.0.0-1_arm64.deb
-Size: 152596
-SHA256: b44edf667491ff072dd0a10afaf63c6a2a7e3db4f8961c0c75d5e78adc6a976f
-SHA1: e9b2ed854aac21c441320081098b3cb4dbf4a3aa
-MD5sum: fe4a48b5aacc89ce2dbf300459f872ad
+Size: 152628
+SHA256: 87926dac47ee2d77a09aa3859cf5aac31fa64f98090e454acf04a0b6216b5cdd
+SHA1: 123e969e06525b571964d337dcedecb98ff703a8
+MD5sum: 6f54e6c2d4c9d1cfef6d91362942cf7e
 Description: debug symbols for xserver-xlibre-input-synaptics
-Build-Ids: 1ad71fe5c3b2840abf038f259d8bd105413c2add 7a1afec576d3b3fa4d1f50fb0a8912c67f7ab526 83f152439dea74565ea02106d63e4d5c7bd8753e
+Build-Ids: 071dac76c0af4db5abcf47ebe46f069c8469f9d7 1ad71fe5c3b2840abf038f259d8bd105413c2add 7a1afec576d3b3fa4d1f50fb0a8912c67f7ab526
 
 Package: xserver-xlibre-input-synaptics-dev
 Source: xserver-xlibre-input-synaptics
@@ -1028,9 +1028,9 @@ Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-void/xserver-xlibre-input-void_25.0.0-1_arm64.deb
 Size: 6100
-SHA256: 279e709c47194392d2500867c94c7972840cfcc7f9ec78dcc098e71af986fe5b
-SHA1: ac2f8ebd8a626f7d08747b9956062859e09848c7
-MD5sum: 2c0c56e2d244daf8729315beea1bc251
+SHA256: 2894a5a25bbfd1724e225e001f1baf023db2d9134ad274a82165631dad13d7f6
+SHA1: ddfc1aca4f58e98a3d97a9fcc39633f8c1e0ef5a
+MD5sum: 1200ca767d68ba5cb87e28abfb7fbbf9
 Description: XLibre X server -- void input driver
  This package provides the void input driver, which never actually registers
  any input events -- it is, as such, a 'fake' driver.
@@ -1051,12 +1051,12 @@ Depends: xserver-xlibre-input-void (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-void/xserver-xlibre-input-void-dbgsym_25.0.0-1_arm64.deb
-Size: 19240
-SHA256: 17eaabe32b62759e88533ab625c1bcbb43f74f99fc6fa8fdcf175627272473b9
-SHA1: fae9cbde5e7e1bbef7188f5416f6f57a5bf07570
-MD5sum: af0edc9f3f8ec8ebb28d405f1094c52d
+Size: 19264
+SHA256: c0a6be08a10d0b73f7cd267027be3adc4cca6feadf802a4d92d848d689256102
+SHA1: 592f3378ee98d8ae53ec15398a560904777d09eb
+MD5sum: 8824197b427c41a9908fce139205b926
 Description: debug symbols for xserver-xlibre-input-void
-Build-Ids: 684fe62e5accd0b14381ae0ab8066715a8a43118
+Build-Ids: b990ba02e7e8316f457f5a5fff3a3957ddca9fe8
 
 Package: xserver-xlibre-input-wacom
 Version: 1:25.0.0-1
@@ -1072,10 +1072,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-input-wacom/xserver-xlibre-input-wacom_25.0.0-1_arm64.deb
-Size: 88100
-SHA256: 159b4233409a85c0c873710a82fb4f357cd47305e58e4fd3aa5a5cd12ee2d5d7
-SHA1: 0e40a2664b9d4ecb292d23b9a4bc97357f6cb9ab
-MD5sum: bd1e233304badde7e73617c42a39413f
+Size: 88384
+SHA256: 176e7c8c00d521c7a928e1d53fd85087173c527aad702056aa5de2ad2bf7104d
+SHA1: 6c52531e424aceda71a49a43b99e85cad8b917bf
+MD5sum: 3bda6963c49f25d00881a2c524e52493
 Description: XLibre X server -- Wacom input driver
  This package provides the XLibre driver for Wacom tablet devices.
 
@@ -1090,12 +1090,12 @@ Depends: xserver-xlibre-input-wacom (= 1:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-input-wacom/xserver-xlibre-input-wacom-dbgsym_25.0.0-1_arm64.deb
-Size: 235872
-SHA256: bc32282158323326377d885e63da5bd306fb6ab6f80796ed869e4bbb27ae2bb4
-SHA1: 6ee4d0c9d912010e4b5cf35e11d778999b02e6d4
-MD5sum: 5720e9d8fb414314edce4669d06c98e8
+Size: 235800
+SHA256: 6aecfeb66ee543186aa3bb6314c626ab2b1bee089f91d8cedb601854d06f0177
+SHA1: 99179e4b31a16e1c7d791e80fa644a487edd550e
+MD5sum: 61bc90dccfe819ddd37aabda1759f4b6
 Description: debug symbols for xserver-xlibre-input-wacom
-Build-Ids: 2b7a96b1bb4fd09cabbf78d292bf3e77ddab452b 4d202017476815960b084427ac33f514003b1b03 a5f93b81e8bceb8e0b6b155eb913382101270110 c8fab83b0d0bd2eb91cd25f2b083b56b1e1d5ff8
+Build-Ids: 2b7a96b1bb4fd09cabbf78d292bf3e77ddab452b 4d202017476815960b084427ac33f514003b1b03 9fbd15887e1afd451f29e4b6c440727414a61762 c8fab83b0d0bd2eb91cd25f2b083b56b1e1d5ff8
 
 Package: xserver-xlibre-legacy
 Source: xlibre-server
@@ -1174,10 +1174,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.0.1-1_arm64.deb
-Size: 59652
-SHA256: e0219e84d82c31b332f94d0ae62aede59b471d268ea0ec4e79cf4c6ba88d51da
-SHA1: b48849349967fa6226fde5d50b4f7cefa6b2a3cf
-MD5sum: cf36b7e73574f05ba82dd4b47f02e43d
+Size: 59660
+SHA256: a66e6670ac9378fb5d855f4bbec340e0c9656ec0e541810b176218bbf09b23b9
+SHA1: 90d6a99d8e6d08c06c4ccaa72088295590492133
+MD5sum: fc496d611f5022c7c056049ee86c5b1d
 Description: XLibre X server -- AMDGPU display driver
  This package provides the 'amdgpu' driver for the AMD Radeon cards. The
  following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
@@ -1199,12 +1199,12 @@ Depends: xserver-xlibre-video-amdgpu (= 25.0.1-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu-dbgsym_25.0.1-1_arm64.deb
-Size: 457452
-SHA256: 7b5b1df56cab6330f1bb745ebc6b917421a88cc6ff51d460eed04b47be389e3c
-SHA1: c0f10a32253fa31a4074ded0ed2c54cfe284381b
-MD5sum: 2c7a9f5094ed6a4ca777e3e2fb33b7fc
+Size: 457472
+SHA256: 33fff2b10fbc5c8db71e71874760e1e94ed953b89499ba6ef179bffa38b43e8b
+SHA1: f374f474c719cd67db83d9d51aab977b41b0965f
+MD5sum: 7a1e5ac560a9abb051cc07bdd7c9e48c
 Description: debug symbols for xserver-xlibre-video-amdgpu
-Build-Ids: 8d4f7e2210ab5a91f9c2370df5826cd896672e81
+Build-Ids: 960bedc5eb5681ff67ab851339f4d7c5cd17fc80
 
 Package: xserver-xlibre-video-ati
 Version: 1:25.0.0-1
@@ -1219,10 +1219,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati_25.0.0-1_arm64.deb
-Size: 7188
-SHA256: 5dd191430fece147e9c7454fe9ee046e6553514f974c91b8606d5bbac16f4df0
-SHA1: 4c09d1952bc03a853efd70a3fe87d8f329316746
-MD5sum: e76621c0e84f9899039f182c73663ac7
+Size: 7192
+SHA256: 651768c0ec717a4d17d0cbeba6d15f08cee237286c4d425d500a6fd1051a4137
+SHA1: 08109af18a1aef7fa5f27bf562cbdf9e495e52f3
+MD5sum: 75439a8554b4bfb7843f573b38ead2b0
 Description: XLibre X server -- AMD/ATI display driver wrapper
  This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
  Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
@@ -1250,12 +1250,12 @@ Depends: xserver-xlibre-video-ati (= 1:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati-dbgsym_25.0.0-1_arm64.deb
-Size: 10016
-SHA256: 7520e80b8686f7455d0d5da17f63e5bc5edc652c6219204ef83c08bf84c80a6b
-SHA1: 3ad75e6d43b4df99a8e648e37668ea5b0b46fa71
-MD5sum: d7b83237589edbc9062890d3c89b53bd
+Size: 10020
+SHA256: cf3c8a83875da5c163867320ad4d7cd0b7bdacda3836ea380fe0160a1e44d689
+SHA1: 4fa445d0b980b49d36f1f638cf3f60121ed2c96b
+MD5sum: 972ca897fed3190807e139f0eb5a2f2e
 Description: debug symbols for xserver-xlibre-video-ati
-Build-Ids: 04914ea0c8ce78a83ecb832c85e5037767d1c04f
+Build-Ids: 4f287e8e24c4a29379b4a510a2b91e42e2b55d3b
 
 Package: xserver-xlibre-video-dummy
 Version: 2:25.0.0-1
@@ -1269,10 +1269,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-dummy/xserver-xlibre-video-dummy_25.0.0-1_arm64.deb
-Size: 9468
-SHA256: 905716fd1a931d22d2dd3968f87db6efeaf626fe1ee56899e3d3d27e5923b91c
-SHA1: 77995d3502c3a366e285b1c409ab2d8006dfaa74
-MD5sum: 2fe9bfc7c0d0d676d7ab99b17c6dfeee
+Size: 9464
+SHA256: a7493f18a889e8210078a6cba9395787624691a1a5d55f8e8f329465e6dcf2ff
+SHA1: 23bce4c48ee709477c8dae553c6e19ce7eb58429
+MD5sum: f306a358df654e71d8a9cc160831c05f
 Description: XLibre X server -- dummy display driver
  This package provides a 'dummy' display driver, which does not actually
  display anything.
@@ -1293,12 +1293,12 @@ Depends: xserver-xlibre-video-dummy (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-dummy/xserver-xlibre-video-dummy-dbgsym_25.0.0-1_arm64.deb
-Size: 43160
-SHA256: b18122bb67ffad5c3232dc79cc9ed397c037a773d1b6f73b17a81554be2cd781
-SHA1: bb3fa018b58abd77d25967842c66ade9fcc9f903
-MD5sum: c1197a6225c0777cc22b040a3223103a
+Size: 43184
+SHA256: d315111c82bcd857b2162f75981be83ec57429ada797fadc79bb2f2215734844
+SHA1: 1e038704c3c4f4ebcb351616011cf235250ec0f7
+MD5sum: bd63f961538bf727c1e592fca43a1ef3
 Description: debug symbols for xserver-xlibre-video-dummy
-Build-Ids: c2f741ada0905f09c488639616be8c7ff4f7c019
+Build-Ids: 5a491fde4f3c408a5de4bc366acf2bd8be541561
 
 Package: xserver-xlibre-video-fbdev
 Version: 2:25.0.0-1
@@ -1312,10 +1312,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-fbdev/xserver-xlibre-video-fbdev_25.0.0-1_arm64.deb
-Size: 11288
-SHA256: ce5d8372fb516a8080e2be44cef94008ee8fbb1284f1a0c0149fcdab2dd4107f
-SHA1: 1514d02ebda817ec322b0dc6eb2d4aaad1a1c3a1
-MD5sum: a1f11c89c610f1f02517312cce239ebb
+Size: 11292
+SHA256: 10a6dc3735608b0abf1392367cdc4a685019568b787899f33d19cbab712aedf7
+SHA1: 452c04e0694f77ac2b8b85506ed7c98c4ad7e562
+MD5sum: f9877bb5f345a16786aee7177febe1ab
 Description: XLibre X server -- fbdev display driver
  This package provides the driver for the Linux framebuffer device (aka
  'fbdev').
@@ -1336,12 +1336,12 @@ Depends: xserver-xlibre-video-fbdev (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-fbdev/xserver-xlibre-video-fbdev-dbgsym_25.0.0-1_arm64.deb
-Size: 33980
-SHA256: 29bbe2b1d58c33493b4ceae00c26680ff79515ddc534e930e657e0881dcfa9a0
-SHA1: 365a51adab5a703ee4d51cf3913e54009163d163
-MD5sum: 29d346d2854c3149db293a478de1bd76
+Size: 34012
+SHA256: 536ff3fb70d57ee04475fb93d51d72fd766972bf42ec45c38df8c9448a33cecc
+SHA1: f9fb512105198c9606bf0b59a0e53e0f33eb2588
+MD5sum: bce03e8117b1a14249b83ded5386f15b
 Description: debug symbols for xserver-xlibre-video-fbdev
-Build-Ids: 857b69748f20c6f8318b52d86bde25344674ffd9
+Build-Ids: 025edc6c4633ee3f2d8b1795db9654f1bc6aa352
 
 Package: xserver-xlibre-video-nouveau
 Version: 2:25.0.0-1
@@ -1357,10 +1357,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-nouveau/xserver-xlibre-video-nouveau_25.0.0-1_arm64.deb
-Size: 83548
-SHA256: 449e1c7f763526db53603fc6c06c8c7df8f1fcae2bf5794b678d95e02d8d4055
-SHA1: a659a68c83afd225fcfe40cfa5ef88c7b031f046
-MD5sum: 28f80f913d12e6b129948ede14ac5bf3
+Size: 83556
+SHA256: 16f1846af96b02e121211f2c7d0ea0a1799e3d03ebd8b6fa2343485416203f71
+SHA1: b6839cd3b42b81906ece7709dbebcf7acf08af3b
+MD5sum: 103e602782a96ec84ba42a3255cdee13
 Description: XLibre X server -- Nouveau display driver
  This driver for the XLibre X server (see xserver-xlibre for a further description)
  provides support for NVIDIA Riva, TNT, GeForce, and Quadro cards.
@@ -1381,12 +1381,12 @@ Depends: xserver-xlibre-video-nouveau (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-nouveau/xserver-xlibre-video-nouveau-dbgsym_25.0.0-1_arm64.deb
-Size: 451732
-SHA256: 6ce5116965fab2db68e7c6254dde8dd903dbdadb95268b003c231fbe6e3b6eda
-SHA1: 37db06734334c852f9107ae7b3aab50fe17f1411
-MD5sum: 1c408b25067ecc74ade3119c3e4df47f
+Size: 451728
+SHA256: d52a5f0addb30b0a8bd57f20d043bd3ea4393e1386990037a4a93b0607f242e6
+SHA1: a47b65cdfce291c36f5e8a5ce2ba14f067ec1f50
+MD5sum: 311db42105b8af2ca58ca8d58849084b
 Description: debug symbols for xserver-xlibre-video-nouveau
-Build-Ids: 38a0a5acb2372440f43eb5cb7feeb0ef3fc2f1bf
+Build-Ids: 5278ace5163ef70363d9402b5f6b043b28d0a21b
 
 Package: xserver-xlibre-video-qxl
 Version: 1:25.0.0-1
@@ -1400,10 +1400,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-qxl/xserver-xlibre-video-qxl_25.0.0-1_arm64.deb
-Size: 74788
-SHA256: aab372ea3449d06230636119e55db136d0e2f638d730209ed1a90b0b57fde545
-SHA1: bd782a6564d1710ff17b706b56cd23f8d6b0f25d
-MD5sum: 62b6ecbfe7ddd5fe71d08a78493c9edf
+Size: 74800
+SHA256: cba3e8fb1f57ddae5620c1b55e1f0f22c70df721d76dbbd6056ad11a7b4d8bfd
+SHA1: 3d8f4284eb01687909f43abfe4ece5f57836365e
+MD5sum: 0a1dea7327ff46e41131d67c4d10a1fc
 Description: XLibre X server -- QXL display driver
  This package provides the driver for QXL video device, i.e. if Linux is
  running inside a RedHat Enterprise Virtualization (RHEV) environment, or
@@ -1425,12 +1425,12 @@ Depends: xserver-xlibre-video-qxl (= 1:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-qxl/xserver-xlibre-video-qxl-dbgsym_25.0.0-1_arm64.deb
-Size: 311260
-SHA256: 0c523158475e4f27317bdf318c27aead7b28b425cea8ed7697ae60161c194426
-SHA1: 535e1479498a1d9a480eab51ec080d97b851cc2d
-MD5sum: d45a2b98f63c00e4a68dae9605f4b868
+Size: 311360
+SHA256: 82efb6e9660193f846fa720ace3d1b15f7aefaf811e28ee1c62ff470f136575e
+SHA1: 4b3c65f1d2b5f7c07ffd367d7f79511a96da66a8
+MD5sum: 63cfbfb9a8ef900547004d749bb1122d
 Description: debug symbols for xserver-xlibre-video-qxl
-Build-Ids: 4f3010e803bc915862b35b92dd83b51eee05a801
+Build-Ids: 3bb30c474671d2ded09cbb47e16ad6911e1069a5
 
 Package: xserver-xlibre-video-radeon
 Source: xserver-xlibre-video-ati
@@ -1446,10 +1446,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon_25.0.0-1_arm64.deb
-Size: 134024
-SHA256: af3a67760620eeeb9190a5f639e278f10d6ab8b4c8d0fca28304444cf462c849
-SHA1: cb2a5e4b1bd1ac9804deb75833fdeb18adccab9b
-MD5sum: 18501175c27daa9dfc2dc7b2a7ad35f2
+Size: 134020
+SHA256: 3ac4270e291b56a45837221cde9d9e6c0ac73836063564afce15b01953116f84
+SHA1: 889e7f3a65b1d95ef9074ba965ad620763f4051d
+MD5sum: e5432ae9a810804b9ce9248a70d40ef8
 Description: XLibre X server -- AMD/ATI Radeon display driver
  This package provides the 'radeon' driver for the AMD/ATI cards. The
  following chips should be supported: R100, RV100, RS100, RV200, RS200,
@@ -1477,12 +1477,12 @@ Depends: xserver-xlibre-video-radeon (= 1:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon-dbgsym_25.0.0-1_arm64.deb
-Size: 713988
-SHA256: 24d5ff5db00505cad9f3d2f02ae24ba5d14c58341d12520c24165a2ac972a12e
-SHA1: f8462b50b699cddeda10ff7c0a3aff74d44466f9
-MD5sum: dad551fdcab978b6714d11720bbd0756
+Size: 714312
+SHA256: e379a06fab9453b1a6bd111f1f69d90f470e6ec5df35ca6bb5ae3626fffd4638
+SHA1: 03483f91b99b1af06a41a5b09dcf06e028990e6d
+MD5sum: d3964d2043dd35e45722b645e6fb8c79
 Description: debug symbols for xserver-xlibre-video-radeon
-Build-Ids: 1cf03a02100da8441ae90dee9ec9e80cbf98023c
+Build-Ids: 696ce384470c4b873e64a6f3cf52259365f35618
 
 Package: xserver-xlibre-video-sisusb
 Version: 2:25.0.0-1
@@ -1496,10 +1496,10 @@ Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-sisusb/xserver-xlibre-video-sisusb_25.0.0-1_arm64.deb
-Size: 35068
-SHA256: 8c139b35f772eabdec0be9af8ec58212b775ea680a2f53176611e0e0da522132
-SHA1: 1307d66146169c0c23ffb3c97a489f7a177f39a7
-MD5sum: 93826c275bd7bb30c7e99bfe9e769c68
+Size: 35076
+SHA256: 3bb67737c2352a2e52bdd05e764c4aa735096c2c4f566c6003a14ec27463b25a
+SHA1: bf92f410f55c736bafb1fddfb5d12aa4052b01f2
+MD5sum: 34627570ab781bbbf1789ef652966bff
 Description: XLibre X server -- SiS USB display driver
  This package provides the driver for SiS USB-attached video devices.
  .
@@ -1516,12 +1516,12 @@ Depends: xserver-xlibre-video-sisusb (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-sisusb/xserver-xlibre-video-sisusb-dbgsym_25.0.0-1_arm64.deb
-Size: 217340
-SHA256: 54ae28aa9cb852ea7f17e16975034e19f8e8f714f3de827c9c5f27a9d054df48
-SHA1: 917b0fbaf3635d26231b7e6cc7fbc9f3da89a4f6
-MD5sum: b769558b9751c21227b31539bdbb2874
+Size: 217144
+SHA256: 1587f6041128a14ff0c2c52680706961e89382fce395a4ef7f74855cd9a11610
+SHA1: 92206969fdf11d6114cd953fa8da3ad47b835fe5
+MD5sum: ed3aef609cb66a458c410b6b4d1fc5cd
 Description: debug symbols for xserver-xlibre-video-sisusb
-Build-Ids: d53de4342c92b4579c0c31a2740a729348719587
+Build-Ids: 74336a216ddff752fe7f08327b07425f46acfe48
 
 Package: xserver-xlibre-video-voodoo
 Version: 2:25.0.0-1
@@ -1536,9 +1536,9 @@ Priority: optional
 Section: x11
 Filename: pool/stable/x/xserver-xlibre-video-voodoo/xserver-xlibre-video-voodoo_25.0.0-1_arm64.deb
 Size: 12388
-SHA256: 09b61f60cc129d2c03ffe042324a6881d70a0d37593a3df630e2876cfa261682
-SHA1: ecdb9bfcb91c21cd303dceaf3aa1b5df73bc61fa
-MD5sum: 118c56bc23498416d13254d90f4a58f6
+SHA256: 925e90cc617aa0813852876fffc7df714826c67644d3fe982ebe61c3fe8deea0
+SHA1: e1d4c09422d8d86f7a2d0913df94a19b99cab5df
+MD5sum: 5786ad09b9a00301e6b2fd135cba0125
 Description: XLibre X server -- Voodoo display driver
  This package provides the driver for 3dfx Voodoo1 and Voodoo2 chipsets.
  .
@@ -1558,12 +1558,12 @@ Depends: xserver-xlibre-video-voodoo (= 2:25.0.0-1)
 Priority: optional
 Section: debug
 Filename: pool/stable/x/xserver-xlibre-video-voodoo/xserver-xlibre-video-voodoo-dbgsym_25.0.0-1_arm64.deb
-Size: 67676
-SHA256: aa11cd4b300a40e7bd6da04c3d50b5d1ddf2c986eafdcc50643de1465e4f96bb
-SHA1: e37a49ab805aa35f449254719c5f404fbda2089f
-MD5sum: 6ea36e46d5783a900fdf064fd8e6b0b5
+Size: 67684
+SHA256: e500d2f4aa8bfaf09d491b40dabee5c56680faca60a4ad787f39a9a8210cf8b9
+SHA1: ee26d6625de99d358c3808801fbdd180110c692d
+MD5sum: 8d35baf19755c8b2a7fdbac3aa47520a
 Description: debug symbols for xserver-xlibre-video-voodoo
-Build-Ids: 5af929aceff92b7fe57f17586cec3fe2c7591ed0
+Build-Ids: 9fbb293b51eb376157d55d18a59d950336345a8e
 
 Package: xserver-xlibre-xephyr
 Source: xlibre-server

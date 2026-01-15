@@ -1,0 +1,5 @@
+Component: testing
+Origin: XLibre
+Label: XLibre Debian Packages
+Architecture: arm64
+Description: Debian repository for XLibre.

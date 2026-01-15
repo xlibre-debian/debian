@@ -20,6 +20,8 @@ sudo apt-get update
 sudo apt-get install xlibre xlibre-archive-keyring
 ```
 
+If you are using Debian Testing (Forky) then use `Components: testing`
+
 If you wish to uninstall XLibre and return to Xorg:
 ```sh
 sudo apt-get update

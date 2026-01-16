@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: XLibre
 Label: XLibre Debian Packages
 Codename: main
-Date: Thu, 15 Jan 2026 01:17:38 UTC
+Date: Fri, 16 Jan 2026 22:26:48 UTC
 Architectures: amd64 arm64
 Components: stable testing
 Description: Debian repository for XLibre.
@@ -15,11 +15,11 @@ MD5Sum:
  b9d3f484dfae659ca8bf2fa69285b9d9 72907 stable/binary-arm64/Packages
  d30e1de388bc57e29056f4c0f6c23d0d 18120 stable/binary-arm64/Packages.gz
  8e5eedca30393cfff871009fe6165b6c 126 stable/binary-arm64/Release
- 56353b4d41e32d5737579c04431ef6a9 82070 testing/binary-amd64/Packages
- 06cd05ca50631645d989c7ef715a23d5 20321 testing/binary-amd64/Packages.gz
+ 6bcc0ceebec1727c21a4cbdf9d214788 83241 testing/binary-amd64/Packages
+ 8aa3653a69e7eec56f27900380800a3d 20684 testing/binary-amd64/Packages.gz
  6e65de6fa6b413f67ce0dc413fe242cd 127 testing/binary-amd64/Release
- 53f8808b8b6dca2ea567fe451127fdfd 71882 testing/binary-arm64/Packages
- b7da3adb56fd1a45bf232b223e23ff28 17802 testing/binary-arm64/Packages.gz
+ a102a5c1a454ef206204ae9d85562351 73053 testing/binary-arm64/Packages
+ f651a240098679e3de356c1b5c8fde20 18142 testing/binary-arm64/Packages.gz
  46612ab09524a1ab4e2a4b152dea8df4 127 testing/binary-arm64/Release
 SHA1:
  cb463a6e810a8b598a054e93814b579ed4110c08 83086 stable/binary-amd64/Packages
@@ -28,11 +28,11 @@ SHA1:
  df81c40454e1b46035c8af40744b5c6eea29f835 72907 stable/binary-arm64/Packages
  0d19ea0e10999b310ef8cae02f147cdd08732ba6 18120 stable/binary-arm64/Packages.gz
  65d7b72d6ccd89faf67552bd4f7c38467fca9802 126 stable/binary-arm64/Release
- 61d6439086cfed1c661ea53c59ee566e7a446d30 82070 testing/binary-amd64/Packages
- cdc28fa4b951d8c322e77ee365085ef41d1c1a1a 20321 testing/binary-amd64/Packages.gz
+ 782c80aee48517d5e1ddcdcaed473a9a8e555b95 83241 testing/binary-amd64/Packages
+ 6393a59e3d70e9b832577f686856ea37f54ee483 20684 testing/binary-amd64/Packages.gz
  e0f454142a1d156fbda2520a3aa618029764e2ea 127 testing/binary-amd64/Release
- 82a967ce75f81f2dc76711c3a542ad4ca82edcff 71882 testing/binary-arm64/Packages
- 253e1e8d3fbf08a5ef68b2d0ce0d56d407367f3b 17802 testing/binary-arm64/Packages.gz
+ ee364751ea07fb70d38333e0b70aa879dee218ba 73053 testing/binary-arm64/Packages
+ 7e528101bb3996d04eeb9761d417a896c18f5fd7 18142 testing/binary-arm64/Packages.gz
  9fc8f257410688bf589bd5d2ce137d1281a87ac5 127 testing/binary-arm64/Release
 SHA256:
  1496271debc34ede7ee6759ed969f974c6b4b92f29b0bdb1b081b0729de39f11 83086 stable/binary-amd64/Packages
@@ -41,25 +41,25 @@ SHA256:
  c283cd0225d85cf80429e226dc3c5a98f54f243a6b3c008d29becea831649f14 72907 stable/binary-arm64/Packages
  28373a8a3dc67a8a7691588867669ca0536fb76aada86cf8c59c21aa63b343be 18120 stable/binary-arm64/Packages.gz
  cd5f1a03fa3894490c33c2ce3979252657ebb341de625d683807866727ca1c0a 126 stable/binary-arm64/Release
- bc07be81988032364122eb4be67013cbc23b3692e25115a8b8d8822d3d43c3ac 82070 testing/binary-amd64/Packages
- bd056e1173d133101b42b5eef35a45aac4608dcfbc1614c4d6ee5f898b5351fd 20321 testing/binary-amd64/Packages.gz
+ bd89b54e4c6dff103c1feaf8ee25471d413db6d3ff6dbd844c8beb00b4e30b95 83241 testing/binary-amd64/Packages
+ 50f43b481092782912c62c5366fe9759b874d35978a9be418c10475916ab03c0 20684 testing/binary-amd64/Packages.gz
  02f215669cf47f6fb5f742291486c18b5b4421f6c175185a39335c44ebbcef4f 127 testing/binary-amd64/Release
- 4b150e539a912c4e29dc11f01f4ba58f80de04671c7d23255c1393b5a75df033 71882 testing/binary-arm64/Packages
- 834ad88639307449dd54eb1885bddc9de1c74616c2638b0be4a66ace10e0db42 17802 testing/binary-arm64/Packages.gz
+ dc1a25f79de3b233ba004a824394143227781551c2a836c8cb064c35c6cc8def 73053 testing/binary-arm64/Packages
+ ced1214437e5bedf39476350a940b26d2e8beb5986e2b6324186cdea09460290 18142 testing/binary-arm64/Packages.gz
  d4422a86aa91adaa4a72dd522bf4b17691edc6b7e76a26fd647bcf0abb352d4f 127 testing/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmloQDIACgkQ15zW8bUj
-lPpPwA//Xvh7/x3/uQq9hGFMqsWNfPgBewSB7eUYCBoDDxR6azkAVEYx0OtTFIHs
-lkLh1Bf4D3DHHSr8ZpsCnxiLhAmxUouwidcOoapqPD1nkMnrGx6KKvf8j7k4k/s4
-Kqy+DLpDx37ybtaEBjFPljPIVl812V/BQRSGhwN97yjqfdE0SjDnoqvb53vgx4uY
-xG8wxrXHrvW5S7AwdBuejPgKr8N+tPwgz5K0bDPswmDXG+UIuIUFs7kX7XjVBEL6
-IkKxvsjQXNWtx0yN0kTPGAokzPAJdprde4PdJ8q3VzZrBkV9fT4E/PwCsrW9WJU1
-XQp15Bo+JrGk0EJ52AcmDeFGw1dJ6O0OvYmn/2rlzlpFjhi+0DUV/DXjgHinRjR8
-Dfgem3x7oFDTYdBI46N17YAsHzayN7zxI1J/P+C5PO3T8TdbVm36j4J+BPjZWCId
-SuSV/lVcfTGXebK62DEsFFVRP6/R4c4+XXfXBhLyLQ/R6yXYfgj/o7MNAsON9yQP
-nBEv/uUuhH+B06qHjYUcV8/Qqu70ldsOMleP46tWUVGa+sGbt23FPcrXpxEAarhc
-5+5OTeblFRGJduONuDQdJtUCf0i6pwe1JXl1ZMyIMNfiRbM4S+ecr7vxxO6wvYVX
-j3tUczjLPpZCqZvrqb8ZtGBczJow68lyBBFlrfkQpQBkws5TGL0=
-=wKf8
+iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmlquykACgkQ15zW8bUj
+lPpvChAAs5+w6UiDKC8Bf6xuGVSS4YxV/KYsDFZ0WNL+BN0VAy3oanAJP7kcWvFN
+GP4WmxzDCSTrjUCVowkjjN2H+yfLkwjaCXDVJvfH0aZB18ko+k6qtURrDuzlrxwF
+vhzy5GD4QJC6CIIzW3xPNmHuSraF/HmxeXVrazShpy6OuaIXOwq2IdUISK9JJezF
+iY7qlPz1dISRNzg3KtADNNNjqHPDcaqERY/B9b2qzyn2XXpzNiNQ4BtC64cjRKGu
+aj3f3rWmTTxh+C1lbFG7uyEgFHDJWHriUlZxuYXNhfFa9hVR5RrZ0a14xUn+Gj+c
+6BVnIc+Yfw/kfl4lnlrmKOaSfVlfRnvhRinlVn7U8bIq7IXuQbJw3lnidtK83yrg
+cHiLLOuLzg9Nqyjsh6FgsOlBhjd2yq+KIRqT6fkWAEAdHqY2/HiNjD0ejzOazkPJ
+ocgwlgZstpQKbVr9i1K0lpn00DFqj82n2wYKQG6HKlPYLN0MOqp/u2ZDUZ2euib/
+qF6vT3Juds4ie3l87zCZWVpR+IRJBM0MjGiGijAYTDMPojAZM9HrvIw+6QsEStup
+qUQGDr4447TFdA9/FL4JUzMhBBK2knrUK2MoOjn3RgYxFrCxD/uc4rb1aDAxDGbW
+jI0MiscWIzTuO8HyA/MvTwjnM3JzRjInib6456glIzJL9+IAnCs=
+=9nFL
 -----END PGP SIGNATURE-----

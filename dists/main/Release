@@ -1,46 +1,46 @@
 Origin: XLibre
 Label: XLibre Debian Packages
 Codename: main
-Date: Fri, 16 Jan 2026 22:26:48 UTC
+Date: Wed, 11 Feb 2026 00:00:15 UTC
 Architectures: amd64 arm64
 Components: stable testing
 Description: Debian repository for XLibre.
 MD5Sum:
- 3c75c28fa6e57deff26d631b241ea92f 83086 stable/binary-amd64/Packages
- c77af7a32a14f4e7d036ee70b01073ca 20682 stable/binary-amd64/Packages.gz
+ def543c08d29254785646c858b861e6c 83507 stable/binary-amd64/Packages
+ 83dca0f11a6f77724c13dfde0f59ac68 20770 stable/binary-amd64/Packages.gz
  c7a08dcf2e4db004aaca3380b0be150a 126 stable/binary-amd64/Release
- b9d3f484dfae659ca8bf2fa69285b9d9 72907 stable/binary-arm64/Packages
- d30e1de388bc57e29056f4c0f6c23d0d 18120 stable/binary-arm64/Packages.gz
+ f5266052e68211bcdef6e42fa4886935 73328 stable/binary-arm64/Packages
+ 2662335f80db7da292affc022f7b2ef5 18188 stable/binary-arm64/Packages.gz
  8e5eedca30393cfff871009fe6165b6c 126 stable/binary-arm64/Release
- 6bcc0ceebec1727c21a4cbdf9d214788 83241 testing/binary-amd64/Packages
- 8aa3653a69e7eec56f27900380800a3d 20684 testing/binary-amd64/Packages.gz
+ 7157b37d2c8e682fef578959219b4745 83662 testing/binary-amd64/Packages
+ d72c048e6da95ac2c4cfe3f410f4918c 20754 testing/binary-amd64/Packages.gz
  6e65de6fa6b413f67ce0dc413fe242cd 127 testing/binary-amd64/Release
- a102a5c1a454ef206204ae9d85562351 73053 testing/binary-arm64/Packages
- f651a240098679e3de356c1b5c8fde20 18142 testing/binary-arm64/Packages.gz
+ 8f0493fda35cb093fa69cc000ba99d0e 73474 testing/binary-arm64/Packages
+ 01f7d8ccab09ef42e9e9e4d40d228569 18190 testing/binary-arm64/Packages.gz
  46612ab09524a1ab4e2a4b152dea8df4 127 testing/binary-arm64/Release
 SHA1:
- cb463a6e810a8b598a054e93814b579ed4110c08 83086 stable/binary-amd64/Packages
- 6ed6b527733812f2157abd1f6a13104c6ee5a505 20682 stable/binary-amd64/Packages.gz
+ c2984cf6d4eea952b220a8ba928a6e58118d4cbc 83507 stable/binary-amd64/Packages
+ 0d24f0ea717b4063295eb0b9eeb40b68f3207d94 20770 stable/binary-amd64/Packages.gz
  23227f6b037e67a4ebf564ccf60ca5bc24aadaf4 126 stable/binary-amd64/Release
- df81c40454e1b46035c8af40744b5c6eea29f835 72907 stable/binary-arm64/Packages
- 0d19ea0e10999b310ef8cae02f147cdd08732ba6 18120 stable/binary-arm64/Packages.gz
+ fcdc199f828f48998ae1de493ed3cab8264c4608 73328 stable/binary-arm64/Packages
+ 9e542c03df33debdf4e26810b4559b705984a4dd 18188 stable/binary-arm64/Packages.gz
  65d7b72d6ccd89faf67552bd4f7c38467fca9802 126 stable/binary-arm64/Release
- 782c80aee48517d5e1ddcdcaed473a9a8e555b95 83241 testing/binary-amd64/Packages
- 6393a59e3d70e9b832577f686856ea37f54ee483 20684 testing/binary-amd64/Packages.gz
+ c0ecca4fbc4dc06b05d30a4799f3c4355bb12360 83662 testing/binary-amd64/Packages
+ 4df2dac71291a8945f1ddca8efa409a7768e25c7 20754 testing/binary-amd64/Packages.gz
  e0f454142a1d156fbda2520a3aa618029764e2ea 127 testing/binary-amd64/Release
- ee364751ea07fb70d38333e0b70aa879dee218ba 73053 testing/binary-arm64/Packages
- 7e528101bb3996d04eeb9761d417a896c18f5fd7 18142 testing/binary-arm64/Packages.gz
+ 00924d365799efe1cae9e51c84d71a0460160ed4 73474 testing/binary-arm64/Packages
+ cb7eefda36d3e824d557f45e6e502087a7bc02ab 18190 testing/binary-arm64/Packages.gz
  9fc8f257410688bf589bd5d2ce137d1281a87ac5 127 testing/binary-arm64/Release
 SHA256:
- 1496271debc34ede7ee6759ed969f974c6b4b92f29b0bdb1b081b0729de39f11 83086 stable/binary-amd64/Packages
- b0319f758bc6c8859a3a42ddb3fee8dffd006a9c721b8020882828648bfff0fe 20682 stable/binary-amd64/Packages.gz
+ a215ad04c448eced50182c6f8c97a140a2b3a87590b88a22cdc2a4ecf859e993 83507 stable/binary-amd64/Packages
+ 7a74b4ade1fac6aebc85c76f5e8d7826a03a5a0d226460184492c7a8cec9a500 20770 stable/binary-amd64/Packages.gz
  93486b04adf7ec278f9ee771255947330835484bf39ee6813548b24be3a2b7ed 126 stable/binary-amd64/Release
- c283cd0225d85cf80429e226dc3c5a98f54f243a6b3c008d29becea831649f14 72907 stable/binary-arm64/Packages
- 28373a8a3dc67a8a7691588867669ca0536fb76aada86cf8c59c21aa63b343be 18120 stable/binary-arm64/Packages.gz
+ 0e5a7fe1e0fca5a6f37df8d557e3a53ca3077d74de97951e88400702209767e3 73328 stable/binary-arm64/Packages
+ b81694d20c7d8d11eb3a47241f1a229ba55f542284ce057e328f344d956681ae 18188 stable/binary-arm64/Packages.gz
  cd5f1a03fa3894490c33c2ce3979252657ebb341de625d683807866727ca1c0a 126 stable/binary-arm64/Release
- bd89b54e4c6dff103c1feaf8ee25471d413db6d3ff6dbd844c8beb00b4e30b95 83241 testing/binary-amd64/Packages
- 50f43b481092782912c62c5366fe9759b874d35978a9be418c10475916ab03c0 20684 testing/binary-amd64/Packages.gz
+ 37b83f146fac5b654d842f9f5d827f5f23e89d6098dc743928042dbe0212b60d 83662 testing/binary-amd64/Packages
+ 7ff267041bb0d59775202e1c83bbac8d58f7aae73eb0ff216b26d2e3a87cb786 20754 testing/binary-amd64/Packages.gz
  02f215669cf47f6fb5f742291486c18b5b4421f6c175185a39335c44ebbcef4f 127 testing/binary-amd64/Release
- dc1a25f79de3b233ba004a824394143227781551c2a836c8cb064c35c6cc8def 73053 testing/binary-arm64/Packages
- ced1214437e5bedf39476350a940b26d2e8beb5986e2b6324186cdea09460290 18142 testing/binary-arm64/Packages.gz
+ 7a8556656f323b3ff0a14a0046c2718d93454e1d9e38f0840a7f4f509df28168 73474 testing/binary-arm64/Packages
+ fe29d31c244d6467b853fa957c489efba508db47a0ccc9e7f6b865892042c80c 18190 testing/binary-arm64/Packages.gz
  d4422a86aa91adaa4a72dd522bf4b17691edc6b7e76a26fd647bcf0abb352d4f 127 testing/binary-arm64/Release

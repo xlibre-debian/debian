@@ -1209,22 +1209,22 @@ Description: XLibre X server -- output driver metapackage
  to only have certain drivers installed.
 
 Package: xserver-xlibre-video-amdgpu
-Version: 25.1.1-1
+Version: 25.1.1-2
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 197
-Depends: libc6 (>= 2.38), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
+Depends: libc6 (>= 2.38), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0), mesa-common-dev (>= 25.2.6), mesa-libgallium (>= 25.2.6), mesa-va-drivers (>= 25.2.6), mesa-vdpau-drivers (>= 25.2.6), mesa-vulkan-drivers (>= 25.2.6)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-amdgpu
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-1)
+Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-2)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/testing/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.1-1_amd64.deb
-Size: 69580
-SHA256: e9f859ac747fffe5d1ae5d6c2090ea5894e354da2e5dc68cc55e6f1aaa155ca3
-SHA1: 75bd16d426abb0f999e7d40bfca6f60985c77bce
-MD5sum: 0916e0fc04272e0cc89b9d7bbbcb8cea
+Filename: pool/testing/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.1-2_amd64.deb
+Size: 69500
+SHA256: 3931018a6a4f56c30f3189675a01f8b9dee525f5a7a0d099cb7825c4a4430749
+SHA1: 80e78df96b2c958d095170a12b66caaf35c0946c
+MD5sum: c90e670bcc04b5921d85f1f9a10e67ae
 Description: XLibre X server -- AMDGPU display driver
  This package provides the 'amdgpu' driver for the AMD Radeon cards. The
  following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
@@ -1237,19 +1237,19 @@ Description: XLibre X server -- AMDGPU display driver
 
 Package: xserver-xlibre-video-amdgpu-dbgsym
 Source: xserver-xlibre-video-amdgpu
-Version: 25.1.1-1
+Version: 25.1.1-2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 507
-Depends: xserver-xlibre-video-amdgpu (= 25.1.1-1)
+Depends: xserver-xlibre-video-amdgpu (= 25.1.1-2)
 Priority: optional
 Section: debug
-Filename: pool/testing/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu-dbgsym_25.1.1-1_amd64.deb
+Filename: pool/testing/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu-dbgsym_25.1.1-2_amd64.deb
 Size: 477528
-SHA256: c8f6980251c9227b4c9fb1ddb84bdbf4f269594c809309d7a25d893d5e54a093
-SHA1: 70efd1a1fae9c2572dc13238a84022fd5b48254d
-MD5sum: d1f5bc4f299a8dbc0dffcd48bc5d2a85
+SHA256: 03fff337017372650448b17e4db83a8eab209d3dbeb10f6ff85cf08af08205e6
+SHA1: 998dc4de6eb5a67004befbf2ae1ddaa6e134f10f
+MD5sum: 05f94e8fc5643dd802149cdacbcc3100
 Description: debug symbols for xserver-xlibre-video-amdgpu
 Build-Ids: ac3e26aa54cde66b48ec253379de0c9bc577ae82
 

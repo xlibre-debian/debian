@@ -1,5 +1,7 @@
 # Debian Repository for XLibre
 
+**PLEASE READ**: If you are using Debian Stable (Trixie), you HAVE to enable [backports](https://backports.debian.org/Instructions/).
+
 ```sh
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl

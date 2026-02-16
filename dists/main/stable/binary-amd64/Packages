@@ -1209,22 +1209,22 @@ Description: XLibre X server -- output driver metapackage
  to only have certain drivers installed.
 
 Package: xserver-xlibre-video-amdgpu
-Version: 25.1.0-1
+Version: 25.1.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 193
 Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.89), libgbm1 (>= 17.1.0~rc2), libudev1 (>= 183), xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-amdgpu
-Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.0-1)
+Provides: xlibre-driver-video, xserver-xorg-video-amdgpu (= 25.1.1-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.0-1_amd64.deb
-Size: 68596
-SHA256: f3a76964bfee894152220bd6484b809e2a2c51cda4d9157e92188186123f535d
-SHA1: f194d1744365199ee254c80a097c8d288c619d75
-MD5sum: 73bef80bd97ccff628eb6bd9353a1a60
+Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu_25.1.1-1_amd64.deb
+Size: 68756
+SHA256: aedc2457e4cdb44a754a63ac5cfc58492e5e5c1d385540e09e8561b2776eafae
+SHA1: 403b092bf8be34ceaf2542091802c1329ee4a588
+MD5sum: 4c1de1b5eadf088e59f71bd31b7d6467
 Description: XLibre X server -- AMDGPU display driver
  This package provides the 'amdgpu' driver for the AMD Radeon cards. The
  following chip families should be supported: Bonaire, Hawaii, Kaveri, Kabini
@@ -1237,39 +1237,39 @@ Description: XLibre X server -- AMDGPU display driver
 
 Package: xserver-xlibre-video-amdgpu-dbgsym
 Source: xserver-xlibre-video-amdgpu
-Version: 25.1.0-1
+Version: 25.1.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 506
-Depends: xserver-xlibre-video-amdgpu (= 25.1.0-1)
+Depends: xserver-xlibre-video-amdgpu (= 25.1.1-1)
 Priority: optional
 Section: debug
-Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu-dbgsym_25.1.0-1_amd64.deb
-Size: 476620
-SHA256: 8a47669b8fbf82cdc13fe7d525483b51aad10c62e145e924629c6f5cc3685fda
-SHA1: 3115e5d60118a4813850ae65142c527a2a8c7f09
-MD5sum: 7221e2091a2c5b208f6bea6f52fb98db
+Filename: pool/stable/x/xserver-xlibre-video-amdgpu/xserver-xlibre-video-amdgpu-dbgsym_25.1.1-1_amd64.deb
+Size: 476892
+SHA256: e02c0f4c422d385f0bf80550b61925ee069e2ad355ec500da00e3bf1f32578c0
+SHA1: de29127def9971d321ba36d6b322d598c4a38a0b
+MD5sum: 39c1e4df6d024ad1e9a2e6078e1778bf
 Description: debug symbols for xserver-xlibre-video-amdgpu
-Build-Ids: 6937589d526997c7497f0dac4c39f2fea34be09d
+Build-Ids: 97911a0d71db43868a53f802e5862a3538c07ee6
 
 Package: xserver-xlibre-video-ati
-Version: 1:25.0.0-1
+Version: 1:25.0.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 38
 Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-28, xserver-xlibre-core (>= 25.1.0), xserver-xlibre-video-radeon
 Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
 Conflicts: xserver-xorg-video-ati
-Provides: xlibre-driver-video, xserver-xorg-video-ati (= 1:25.0.0-1)
+Provides: xlibre-driver-video, xserver-xorg-video-ati (= 1:25.0.1-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati_25.0.0-1_amd64.deb
-Size: 6976
-SHA256: 0b99d56e0a963cb9f6ee403cd61bb8f7e4abf9cde43bb5c370f0c40a755bdc8b
-SHA1: 0c664c006ccb84370b5d1eaa8b287081e1394785
-MD5sum: 71f014c172811a4fb52662d033e81bae
+Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati_25.0.1-1_amd64.deb
+Size: 7000
+SHA256: 4ca7cb11fc437a2b445d422d0c667c3f67f50c4bc6adae728e0c6b0026d2c080
+SHA1: c01dd68f5eac853c65b83e307c1d70af5864fe6f
+MD5sum: 1c6bd9539d254e5249649f97e968c8fa
 Description: XLibre X server -- AMD/ATI display driver wrapper
  This package provides the 'ati' driver for the AMD/ATI Mach64, Rage128,
  Radeon, FireGL, FireMV, FirePro and FireStream series. This driver is
@@ -1288,21 +1288,21 @@ Description: XLibre X server -- AMD/ATI display driver wrapper
 
 Package: xserver-xlibre-video-ati-dbgsym
 Source: xserver-xlibre-video-ati
-Version: 1:25.0.0-1
+Version: 1:25.0.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 23
-Depends: xserver-xlibre-video-ati (= 1:25.0.0-1)
+Depends: xserver-xlibre-video-ati (= 1:25.0.1-1)
 Priority: optional
 Section: debug
-Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati-dbgsym_25.0.0-1_amd64.deb
-Size: 9740
-SHA256: 343f7600b5d9b794569072e7dec1f0aa54f308da4d009c3cad41bfaeb4ca3ea2
-SHA1: 7eb2eacdb0d38e2b86220a9ee1afbd340ef8f8c2
-MD5sum: b741ac6c93278c60bd6b444aba846765
+Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-ati-dbgsym_25.0.1-1_amd64.deb
+Size: 9716
+SHA256: 946f230b537be637d134c41f085fe495fe42a0defb720999895861b0fecc6121
+SHA1: 93c7316d795095a1f11f78665e2a69a6e9e53165
+MD5sum: a29bde2811bdc79542c31f766abe483a
 Description: debug symbols for xserver-xlibre-video-ati
-Build-Ids: a079ce69c52ee1291a6d8e65d45c54e03477ea67
+Build-Ids: b730d9be425f04345b7cd3febc68ce75594e478d
 
 Package: xserver-xlibre-video-dummy
 Version: 2:25.0.0-1
@@ -1529,22 +1529,22 @@ Build-Ids: 050e83cc440de18d5759eabdbd0fa0997ef6d017
 
 Package: xserver-xlibre-video-radeon
 Source: xserver-xlibre-video-ati
-Version: 1:25.0.0-1
+Version: 1:25.0.1-1
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 525
 Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.89), libgbm1 (>= 8.1~0), libudev1 (>= 183)
 Suggests: firmware-amd-graphics
 Conflicts: xserver-xorg-video-radeon
-Provides: xserver-xorg-video-radeon (= 1:25.0.0-1)
+Provides: xserver-xorg-video-radeon (= 1:25.0.1-1)
 Homepage: https://github.com/X11Libre
 Priority: optional
 Section: x11
-Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon_25.0.0-1_amd64.deb
-Size: 148940
-SHA256: 9c6758b2336945ec5b01cfcca420f70a5b592a4432daf375b90ec7ff24a05741
-SHA1: 734fe1ef5a73eebbe9ccd4e55c123324c4cecbf1
-MD5sum: e9b83b8874789b40899f92e04148d8c8
+Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon_25.0.1-1_amd64.deb
+Size: 149460
+SHA256: fb03dd95de8ad1b028dac11d62d89733f8f7d9c5f20deb93ab426d3acf505844
+SHA1: 6b2196133011af03d969a09eec722d2c36f4ff34
+MD5sum: 41bf69150900d7b8508346922906304b
 Description: XLibre X server -- AMD/ATI Radeon display driver
  This package provides the 'radeon' driver for the AMD/ATI cards. The
  following chips should be supported: R100, RV100, RS100, RV200, RS200,
@@ -1563,21 +1563,21 @@ Description: XLibre X server -- AMD/ATI Radeon display driver
 
 Package: xserver-xlibre-video-radeon-dbgsym
 Source: xserver-xlibre-video-ati
-Version: 1:25.0.0-1
+Version: 1:25.0.1-1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 768
-Depends: xserver-xlibre-video-radeon (= 1:25.0.0-1)
+Depends: xserver-xlibre-video-radeon (= 1:25.0.1-1)
 Priority: optional
 Section: debug
-Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon-dbgsym_25.0.0-1_amd64.deb
-Size: 729012
-SHA256: 9a17099ceed8a536dbcc57d1a7a3a209c7bc17bd17cc8bc12bc6f00dcf57a78a
-SHA1: 77433fd715c1ca5c253a585d491b717f50c678a5
-MD5sum: 72ee17ca2d0e7643d1efdacfbe44dfce
+Filename: pool/stable/x/xserver-xlibre-video-ati/xserver-xlibre-video-radeon-dbgsym_25.0.1-1_amd64.deb
+Size: 729532
+SHA256: 716d752a5ae57f40d49620be024234950892d006d8008264799f56327dbc77bb
+SHA1: e8613b2404b31b97ed73e6f16eba9fec40787898
+MD5sum: 64dfd6f6c804899dde0ae83eb7088473
 Description: debug symbols for xserver-xlibre-video-radeon
-Build-Ids: a609ab782eb24914d4004c26292421715385001c
+Build-Ids: c888b0e7e2db19a28bc1c2dd08f1d931222db511
 
 Package: xserver-xlibre-video-sisusb
 Version: 2:25.0.0-1

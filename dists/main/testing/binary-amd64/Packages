@@ -791,6 +791,76 @@ Description: XLibre X server -- evdev input driver (development headers)
  .
  This package is built from the XLibre xf86-input-evdev driver module.
 
+Package: xserver-xlibre-input-joystick
+Version: 25.0.0-1
+Architecture: amd64
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 71
+Depends: libc6 (>= 2.38)
+Conflicts: xserver-xorg-input-joystick
+Provides: xserver-xorg-input-joystick
+Homepage: https://github.com/X11Libre
+Priority: optional
+Section: x11
+Filename: pool/testing/x/xserver-xlibre-input-joystick/xserver-xlibre-input-joystick_25.0.0-1_amd64.deb
+Size: 23844
+SHA256: 1ba13b4d57a834355fae017de68d2c01e67f1994eae348e724fbd8a0a24e7a29
+SHA1: 1047669176a20420e201eb100098c046a911d60c
+MD5sum: 6e4a64b5435d0e4bbb3f9010241da4f0
+Description: XLibre X server -- joystick input driver
+ This package provides the driver for joysticks. It allows to control the pointer with
+ a joystick, and is not needed for games etc.
+ .
+ More information about XLibre can be found at:
+ <URL:http://XLibre.net>
+ .
+ This package is built from the XLibre xf86-input-joystick driver module.
+
+Package: xserver-xlibre-input-joystick-dbgsym
+Source: xserver-xlibre-input-joystick
+Version: 25.0.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 79
+Depends: xserver-xlibre-input-joystick (= 25.0.0-1)
+Priority: optional
+Section: debug
+Filename: pool/testing/x/xserver-xlibre-input-joystick/xserver-xlibre-input-joystick-dbgsym_25.0.0-1_amd64.deb
+Size: 63312
+SHA256: 2a96254aee3071caa8f63bc018eba0df93ee50c7f3a00fa8f206cfb07994655b
+SHA1: db1dd4145a57fd72b74ed28ff7032f5b660d8e8a
+MD5sum: 1d9ad52c1459e733ef25556c66f02f10
+Description: debug symbols for xserver-xlibre-input-joystick
+Build-Ids: 95b11b87a5609369ad768043ad0554675a55c62f
+
+Package: xserver-xlibre-input-joystick-dev
+Source: xserver-xlibre-input-joystick
+Version: 25.0.0-1
+Architecture: all
+Maintainer: NexusSfan <nexussfan@duck.com>
+Installed-Size: 16
+Conflicts: xserver-xorg-input-joystick-dev
+Provides: xserver-xorg-input-joystick-dev
+Multi-Arch: foreign
+Homepage: https://github.com/X11Libre
+Priority: optional
+Section: libdevel
+Filename: pool/testing/x/xserver-xlibre-input-joystick/xserver-xlibre-input-joystick-dev_25.0.0-1_all.deb
+Size: 3456
+SHA256: 0624f183dbc5f19612653bddc8477ee308f2b7110fb358fe61738632b2d9e0fc
+SHA1: 789b402ec0d1261ed18f496560d349cd35a47848
+MD5sum: 03eb13c8ca6afe96eb7cd18a402c1090
+Description: XLibre X server -- joystick input driver (development headers)
+ This package provides the development headers for the joystick input
+ driver found in xserver-xlibre-input-joystick. Non-developers likely have
+ little use for this package.
+ .
+ More information about XLibre can be found at:
+ <URL:http://XLibre.net>
+ .
+ This package is built from the XLibre xf86-input-joystick driver module.
+
 Package: xserver-xlibre-input-kbd
 Source: xserver-xlibre-input-keyboard
 Version: 2:25.0.0-1
